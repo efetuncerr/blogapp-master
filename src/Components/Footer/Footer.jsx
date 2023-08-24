@@ -15,7 +15,7 @@ const Footer = () => {
     <div class="col-md-3 col-lg-3 col-xl-4 mx-auto mt-3">
         <span style={{fontWeight:"bold", fontSize:"40px", letterSpacing:"4px", justifyContent:"left", display:"flex", color:"gray" }}>LOGO</span>
       {/* <img src="" class="img-fluid"  alt="Logo"/> */}
-      <p class="mt-4 justify-content-start text-start text-white">Copyright © 2023 Nexcent ltd.<br/>All rights reserved </p>
+      <p class="mt-4 justify-content-start text-start text-white">Copyright © 2023 CompanyName ltd.<br/>All rights reserved </p>
 
       
         <div class="text-start text-md-right  ">
@@ -83,15 +83,16 @@ const Footer = () => {
   
     <div class="col-xl-3 col-lg-3 col-md-6 mx-auto mt-3 text-start">
       <div>
-        <h5 class="mb-4 text-white" style={{fontWeight:"bold"}}>Stay up to date</h5>
+        <h5 class="mb-4 text-white" style={{fontWeight:"bold"}}>Stay up to date </h5>
 
         <div class="d-flex justify-content-end">
           <input type="email" class="form-control bg-light border-light" style={{borderRadius: "15px;"}} Placeholder="Your email address"/> 
           
-          
 
 
       </div>
+<button className="btn btn-secondary mt-2 align-items-center">Gönder</button>          
+
       </div>
     </div>
     </div>

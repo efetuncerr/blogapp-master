@@ -1,4 +1,3 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const Posts = () => {
@@ -16,6 +15,8 @@ const Posts = () => {
 
   return (
     <div className="container-fluid mt-5">
+      <h1 className="d-flex justify-content-center">Tüm Randevular</h1>
+      <hr/>
       <div className="row d-flex justify-content-center align-items-center">
         <div className="col col-sm-12 col-lg-9">
           <table className="table table-hover table-responsive">

@@ -25,8 +25,8 @@ const Navbarr = () => {
   return (
     <>
   
-  <Navbar expand="lg" className="navbar">
-      <Container fluid className="mx-5">
+  <Navbar expand="lg" className="navbar ">
+      <Container fluid className="mx-5 ">
         <Navbar.Brand style={{fontSize:"30px", letterSpacing:"2px"}} href="/">EFE.</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

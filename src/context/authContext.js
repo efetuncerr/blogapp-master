@@ -8,10 +8,12 @@ export const AuthContext = createContext(null);
 //     JSON.parse(localStorage.getItem("user") || null)
 //   );
 
+
 export const AuthContextProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(
     JSON.parse(localStorage.getItem("user") || null)
   );
+
 
   const login = async (inputs) => {
     const res = await axios.post("/auth/login", inputs);
